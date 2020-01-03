@@ -1,3 +1,14 @@
 body {
   margin: 0;
 }
+
+#app {
+  width: 15em;
+  background-color: rgb(175, 175, 175);
+  float: left;
+  height: 100%;
+}
+
+#canvas {
+  float: right;
+}
