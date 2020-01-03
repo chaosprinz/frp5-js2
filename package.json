@@ -1,0 +1,42 @@
+{
+  "name": "frp5-js2",
+  "version": "1.0.0",
+  "description": "My studies on working with the great [Nature of code](https://natureofcode.com/)-book by Daniel Shifman, using p5.js and some methologies and tools of web-technology i learned about in the last few months.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "parcel index.html --open",
+    "build2": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaosprinz/frp5-js2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chaosprinz/frp5-js2/issues"
+  },
+  "homepage": "https://github.com/chaosprinz/frp5-js2#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.25",
+    "@types/p5": "^0.9.0",
+    "@types/ramda": "^0.26.39",
+    "jest": "^24.9.0",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "1.19.1",
+    "sass": "^1.24.1",
+    "ts-jest": "^24.2.0",
+    "typescript": "^3.7.4"
+  },
+  "dependencies": {
+    "p5": "^0.10.2",
+    "ramda": "^0.26.1",
+    "xstream": "^11.11.0"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  }
+}
